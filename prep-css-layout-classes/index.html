@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+      padding-top: 25px;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: calc(100% / 3);
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+
+    img {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Complete the HTML here -->
+<h1>
+  Spongebob Squarepants
+</h1>
+<div class="container" >
+  <div class="row">
+    <div class="column">
+      <img src="https://upload.wikimedia.org/wikipedia/en/3/31/The_SpongeBob_SquarePants_Movie_poster.jpg" alt="">
+      <h3>The Spongebob Squarepants Movie</h3>
+      <p>
+        In this live-action animated comedy, Plankton's plan is to steal King Neptune's crown and send it to the dangerous Shell
+        City, and then frame Mr. Krabs for the crime. SpongeBob and Patrick must journey to Shell City while facing several
+        perils along the way to retrieve the crown to save Mr. Krabs from Neptune's wrath and Bikini Bottom from Plankton's
+        tyranny.
+      </p>
+    </div>
+    <div class="column">
+      <img src="https://m.media-amazon.com/images/M/MV5BMjYyNDczNTE0MF5BMl5BanBnXkFtZTgwNjkzNDYxMzE@._V1_.jpg" alt="">
+      <h3>THe Spongebob Movie: Sponge out of Water</h3>
+      <p>
+        The plot follows a pirate named Burger Beard (Antonio Banderas), who steals the Krabby Patty secret formula using a
+        magical book that makes any text written upon it come true. After Bikini Bottom turns into an apocalyptic cesspool and
+        the citizens turn against SpongeBob, he must team up with Plankton to find the formula and save Bikini Bottom. Later,
+        SpongeBob, Patrick, Squidward, Mr. Krabs, Sandy and Plankton must travel to the surface to confront Burger Beard and get
+        the formula back before Bikini Bottom is completely destroyed.
+      </p>
+    </div>
+    <div class="column">
+      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/34/The_SpongeBob_Movie_-_Sponge_on_the_Run.png/220px-The_SpongeBob_Movie_-_Sponge_on_the_Run.png" alt="">
+      <h3>The Spongebob Movie: Sponge on the Run</h3>
+      <p>
+        A third film was released in Canadian theatres on August 14, 2020[1] followed by a limited video on demand release and
+        Paramount+ release on March 4, 2021.[2][3] The film was directed by Tim Hill, who also wrote the screenplay with Michael
+        Kvamme[4][5] from a story by Aaron Springer, Jonathan Aibel and Glenn Berger.[6] The show's principal voice actors—Tom
+        Kenny, Bill Fagerbakke, Rodger Bumpass, Clancy Brown, Mr. Lawrence, Jill Talley, Carolyn Lawrence, Mary Jo Catlett and
+        Lori Alan— reprised their roles.[7] The film depicts how SpongeBob met his friends for the first time at a summer camp.
+        The film uses full CGI animation provided by Mikros Image for underwater sequences.[8] On January 23, 2019, it was
+        confirmed that production on the film had officially begun.
+      </p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
